@@ -92,10 +92,24 @@ SecurityEvent
 | summarize FailureCount = count() by IpAddress
 | order by FailureCount desc
 
+![KQL Query](screenshots/kql-queries/1.%20Security%20Event%20KQL%20Query.jpg)
+
+![1400 Failed Logins](screenshots/kql-queries/2.%201400%20Failed%20Login%20Attempts.jpg)
+
+![Filtered Search](screenshots/kql-queries/3.%20Filtered%20Search%20Query.jpg)
+
+![Geolocation Netherlands](screenshots/kql-queries/4.%20Geolocation%20-%20Netherlands.jpg)
+
+![6300 Login Attempts](screenshots/kql-queries/5.%206300%20Login%20Attempts.jpg)
+
 
 **6. Attack Map (GeoIP Enrichment)**
 
 Mapped attacker IPs to geographic locations.
+
+
+![Attack Map](screenshots/kql-queries/6.%20Attack%20Map%20After%2018%20Hours.jpg)
+
 
 
 
