@@ -5,11 +5,17 @@ Overview
 Deployed a cloud-based honeypot in Microsoft Azure to capture and analyze real-world attack traffic using Microsoft Defender and KQL.
 
 **Technologies**
+
 Microsoft Azure
+
 Microsoft Defender (SIEM)
+
 Log Analytics Workspace
+
 KQL (Kusto Query Language)
+
 Windows Event Logs
+
 
 **1. Initial Setup**
 
@@ -51,13 +57,22 @@ Mapped attacker IPs to geographic locations.
 
 
 **Results**
+
 Captured real failed login attempts
+
 Identified attacker IPs and locations
+
 Visualized global attack patterns
 
 
+
 **Skills Demonstrated**
+
 SIEM configuration and log analysis
+
 Threat detection and investigation
+
 KQL querying
+
 Azure cloud security
+
