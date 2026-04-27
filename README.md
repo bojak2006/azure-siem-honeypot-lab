@@ -88,9 +88,13 @@ Forwarded Windows Security logs to Log Analytics and connected Microsoft Defende
 Queried failed login attempts (Event ID 4625):
 
 SecurityEvent
+
 | where EventID == 4625
+
 | summarize FailureCount = count() by IpAddress
+
 | order by FailureCount desc
+
 
 ![KQL Query](screenshots/kql-queries/1.%20Security%20Event%20KQL%20Query.jpg)
 
