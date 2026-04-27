@@ -20,6 +20,11 @@ Windows Event Logs
 **1. Initial Setup**
 
 Created resource group, virtual network, and VM.
+![Resource Group](screenshots/initial-setup/1-creating-resource-group.jpg)
+![Virtual Network](screenshots/initial-setup/2-creating-virtual-network.jpg)
+![VNet in Resource Group](screenshots/initial-setup/3-virtual-network-inside-RG.jpg)
+![Virtual Machine Creation](screenshots/initial-setup/4-creating-virtual-machine.jpg)
+![Verification](screenshots/initial-setup/5-verification.jpg)
 
 
 **2. Network Security Group (NSG)**
